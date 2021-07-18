@@ -1,5 +1,5 @@
 function booWho(bool) {
-  return bool;
+  return typeof bool === "boolean";
 }
 
 console.log(booWho(null));
