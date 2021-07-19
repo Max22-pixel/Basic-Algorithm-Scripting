@@ -4,4 +4,4 @@ function getIndexToIns(arr, num) {
     .sort((a, b) => a - b)
     .indexOf(num);
 }
-console.log(getIndexToIns([1, 3, 6, 4], 2.5));
+console.log(getIndexToIns([1, 3, 6, 4], 2));
